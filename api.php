@@ -5546,9 +5546,9 @@ class Response
 // file: src/index.php
 
 $config = new Config([
-    'username' => 'php-crud-api',
-    'password' => 'php-crud-api',
-    'database' => 'php-crud-api',
+    'username' => 'root',
+    'password' => 'root',
+    'database' => 'EdikKeyPricesdb',
 ]);
 $request = new Request();
 $api = new Api($config);
